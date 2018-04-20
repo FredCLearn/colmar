@@ -1,11 +1,45 @@
 
 /* Header and Nav Area */
 
-  header{
-   
+.banner{
+  width: 100%;
+  background-color: white;
+  display:flex;
+  align-items:center;
+  height: 64px;
+}
+
+.leftnav{
+  flex-grow:1;
+}
+
+.leftnav{
+  display:flex;
+  align-items: center;
+  padding-left:24px;
+}
+
+.mobile{
+  display:none;
+}
+
+.banner nav a{
+  padding-right:16px;
+}
+.banner nav{
+  padding-right:8px;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .desktop {
+    display: none;
   }
 
-  
+  .mobile{
+    display:flex;
+    justify-content: space-around;
+  }
 
 
 /* Content Area */
@@ -13,4 +47,3 @@
 
 
 /* Footer */
-
