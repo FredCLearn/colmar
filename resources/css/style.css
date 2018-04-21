@@ -1,49 +1,102 @@
+/* Global Settings */
+
+
+
 
 /* Header and Nav Area */
 
-.banner{
-  width: 100%;
-  background-color: white;
+  .banner{
+    width: 100%;
+    background-color: white;
+    display:flex;
+    align-items:center;
+    height: 64px;
+    position:fixed;
+  }
+
+  .leftnav{
+    flex-grow:1;
+  }
+
+  .leftnav{
+    display:flex;
+    align-items: center;
+    padding-left:24px;
+  }
+
+  .mobile{
+    display:none;
+  }
+
+  .banner nav a{
+    padding-right:16px;
+  }
+  .banner nav{
+    padding-right:8px;
+  }
+
+/* Content Area */
+
+.topdivpush{
+  height:64px;
+}
+
+.learn{
   display:flex;
-  align-items:center;
-  height: 64px;
+  background-color: pink;
+  top:100px;
 }
 
-.leftnav{
-  flex-grow:1;
+.rightlearn{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+padding:200px 0;
 }
 
-.leftnav{
-  display:flex;
-  align-items: center;
-  padding-left:24px;
+.learn img{
+  width:60%;
+  padding: 32px 24px;
 }
 
-.mobile{
-  display:none;
+.button{
+display:flex;
+justify-content: center;
+padding:8px 0;
+background-color: gray;
+color:white;
 }
 
-.banner nav a{
-  padding-right:16px;
-}
-.banner nav{
-  padding-right:8px;
-}
+/* Footer */
 
 
 @media only screen and (max-width: 480px) {
   .desktop {
     display: none;
   }
-
-  .mobile{
+  .mobile-ban{
     display:flex;
     justify-content: space-around;
   }
 
+  .mobile-first{
+    display:block;
+  }
 
-/* Content Area */
+  .mobile-first img{
+    width:100%;
+  }
 
+  .mobile-first div{
+    background-color: lightgray;
+padding:32px 16px;
+  }
+  .mobile-first .button{
+    background-color: #686868;
+    margin-top: 24px;
+    padding:8px 0;
+  }
 
-
-/* Footer */
+  .mobile-first p{
+    padding-top: 32px;
+  }
