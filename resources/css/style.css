@@ -2,7 +2,6 @@
 
 
 
-
 /* Header and Nav Area */
 
   .banner{
@@ -50,7 +49,7 @@
 .rightlearn{
 display:flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: space-around;
 padding:200px 0;
 }
 
@@ -89,7 +88,7 @@ color:white;
 
   .mobile-first div{
     background-color: lightgray;
-padding:32px 16px;
+    padding:32px 16px;
   }
   .mobile-first .button{
     background-color: #686868;
@@ -100,3 +99,58 @@ padding:32px 16px;
   .mobile-first p{
     padding-top: 32px;
   }
+
+  .mobile-second{
+    display:block;
+    padding: 16px 16px 32px 16px;
+
+  }
+
+  .mobile-second img{
+    width:100%;
+  }
+
+.text-contain{
+  padding-top:16px;
+  padding-left:16px;
+}
+
+.bottom-padding{
+  padding-bottom:64px;
+}
+
+.mobile-third{
+  display:block;
+  margin-left:16px;
+  margin-right:16px;
+}
+
+.mobile-third h1{
+  text-align:center;
+  padding-top:32px;
+  padding-bottom:16px;
+
+}
+
+.m-button{
+  padding:16px 0 24px 16px;
+  background-color: lightgrey;
+  margin-bottom:8px;
+}
+
+.mobile-forth{
+  display:block;
+  background-color: pink;
+  margin:0 auto;
+  text-align: center;
+  padding-bottom:24px;
+}
+
+.mobile-forth h1{
+  padding-top:32px;
+  padding-bottom:16px;
+}
+
+video{
+  width:100%;
+}
