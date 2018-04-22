@@ -1,6 +1,35 @@
 /* Global Settings */
 
+h1{
+display: block;
+font-size: 2em;
+margin-top: 0.67em;
+margin-bottom: 0.67em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+}
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+html {
+  font-size:16px;
+  font-family:helvetica,sans-serif;
+}
+
+a {
+  color:dodgerblue;
+  text-decoration:none;
+}
 
 /* Header and Nav Area */
 
@@ -29,6 +58,7 @@
 
   .banner nav a{
     padding-right:16px;
+    color:black;
   }
   .banner nav{
     padding-right:8px;
@@ -40,17 +70,17 @@
   height:64px;
 }
 
+/* First Content Area */
 .learn{
   display:flex;
-  background-color: pink;
-  top:100px;
+  background-color: lightgray;
 }
 
 .rightlearn{
 display:flex;
 flex-direction: column;
-justify-content: space-around;
-padding:200px 0;
+justify-content: center;
+margin-right:20px;
 }
 
 .learn img{
@@ -66,9 +96,14 @@ background-color: gray;
 color:white;
 }
 
+/* Second Content Area */
+
+
+
 /* Footer */
 
 
+/* Styling for Mobile */
 @media only screen and (max-width: 480px) {
   .desktop {
     display: none;
@@ -140,7 +175,6 @@ color:white;
 
 .mobile-forth{
   display:block;
-  background-color: pink;
   margin:0 auto;
   text-align: center;
   padding-bottom:24px;
@@ -153,4 +187,10 @@ color:white;
 
 video{
   width:100%;
+}
+
+.m-footer{
+  display:block;
+  text-align: center;
+  padding: 16px 0;
 }
