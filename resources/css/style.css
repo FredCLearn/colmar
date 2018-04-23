@@ -22,7 +22,6 @@ h4 {
     font-weight: bold;
 }
 
-
 html {
   font-size:16px;
   font-family:sans-serif;
@@ -33,6 +32,9 @@ a {
   text-decoration:none;
 }
 
+.back-grey{
+background-color:lightgray;
+}
 /* Header and Nav Area */
 
   .banner{
@@ -85,6 +87,11 @@ justify-content: center;
 margin-right:20px;
 }
 
+.rightlearn h2{
+padding-top: 32px;
+padding-bottom:24px;
+}
+
 .learn img{
   width:60%;
   padding: 32px 24px;
@@ -108,13 +115,14 @@ color:white;
 .practice-left{
   width:60%;
   padding:32px 24px;
+  border-right: 1px solid lightgray;
 }
 .practice-left img{
   width:100%;
   padding-bottom:32px;
 }
 .practice-left p{
-padding:24px 0;
+  padding:24px 0;
 }
 
 .practice-right{
@@ -127,6 +135,7 @@ padding:24px 0;
   flex-direction:row;
   align-items:center;
   padding:16px;
+  border-bottom: 1px solid lightgray;
 }
 .practice-item img{
   width:35%;
@@ -172,14 +181,13 @@ padding:24px 0;
     padding:8px 0;
   }
 
-  .mobile-first p{
+  .mobile-first h3{
     padding-top: 32px;
   }
 
   .mobile-second{
     display:block;
     padding: 16px 16px 32px 16px;
-
   }
 
   .mobile-second img{
@@ -191,6 +199,10 @@ padding:24px 0;
   padding-left:16px;
 }
 
+.text-contain p{
+  padding:8px 0;
+}
+
 .bottom-padding{
   padding-bottom:64px;
 }
@@ -199,13 +211,14 @@ padding:24px 0;
   display:block;
   margin-left:16px;
   margin-right:16px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding:32px 0;
 }
 
 .mobile-third h1{
   text-align:center;
-  padding-top:32px;
   padding-bottom:16px;
-
 }
 
 .m-button{
