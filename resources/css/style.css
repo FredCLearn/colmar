@@ -149,6 +149,40 @@ color:white;
   padding:8px 0;
 }
 
+/* Third Content Area */
+
+.start-learn{
+  background-color:lightgray;
+  padding-left:72px;
+  padding-right:40px;
+}
+
+.start-learn-heading h1{
+  text-align:center;
+  padding:32px 0;
+}
+
+.row-1{
+  background-color:yellow;
+  display:flex;
+  flex-direction:row;
+}
+
+.row-2{
+  background-color:green;
+  flex-direction:row;
+}
+
+.learn-item{
+  background-color:white;
+  margin-right:32px;
+  margin-bottom:32px;
+}
+
+.learn-item img{
+width:100%;
+}
+
 
 /* Footer */
 
