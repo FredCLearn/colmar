@@ -231,13 +231,19 @@ background-color: lightgray;
 /* Footer */
 footer{
   font-size: .75em;
-  width: 100%;
   background-color: white;
   display:flex;
-  align-items:center;
-  height: 64px;
+  border-top: 1px solid lightgray;
+  padding-top:16px;
+  height:64px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
+footer nav a{
+  color:black;
+  padding-left:16px;
+}
 footer .left-foot{
   flex-grow:1;
 }
