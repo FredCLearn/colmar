@@ -35,8 +35,18 @@ a {
 .back-grey{
 background-color:lightgray;
 }
-/* Header and Nav Area */
 
+p{
+  color:grey;
+}
+/* Header and Nav Area */
+.banner .bold{
+  font-weight:bold;
+}
+
+.lightgrey{
+  color:grey;
+}
   .banner{
     width: 100%;
     background-color: white;
